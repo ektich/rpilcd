@@ -12,6 +12,11 @@ class LCD:
         busio.I2C(board.SCL, board.SDA),
         lcd_columns, lcd_rows)
 
+    def __init__(self):
+        """Clear the previous message and switch on the display"""
+        self.clear()
+        self.on()
+
     def display_message(self, message, clear=True):
         # TODO: check that message fits in the dimentions
         # and try to display it, using scrolling if needed
