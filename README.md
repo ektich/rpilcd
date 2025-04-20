@@ -3,10 +3,8 @@
 This is a personal project, and there is no guarantee this will ever work at all
 
 ## Pre-requisites
- 2. export CFLAGS=-fcommon
- 2. sudo pip3 install --upgrade RPi.GPIO
- 3. sudo pip3 isntall --upgrade adafruit-blinka
- 4. sudo pip3 install adafruit-circuitpython-charlcd
+ 1. sudo pip3 install --upgrade RPi.GPIO
+ 1. sudo pip3 install adafruit-circuitpython-charlcd
 
 (potentially might also need sudo pip3 install --upgrade adafruit-python-shell)
 
